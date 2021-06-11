@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded'),function(){
 
     //delete movie
     list.addEventListener('click',(e)=>{
-        if(e.target.className == 'Delete'){
+        if(e.target.className == 'delete'){
             const li = e.target.parentElement;
             li.parentNode.removeChild(li);
         }
