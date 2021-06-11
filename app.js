@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded',function(){
     // add movie
     const addForm = forms['add-movie'];
     addForm.addEventListener('submit',function(e){
-    e.PreventDefault();
+    e.preventDefault();
         
     // creating elements
     const value = addForm.querySelector('input[type = "text"]').value;
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded',function(){
 
     // add classes
         movieName.classList.add('name');
-        deleteBtn.classList.add('Delete');
+        deleteBtn.classList.add('delete');
 
     // append to DOM
         li.appendChild(movieName);
