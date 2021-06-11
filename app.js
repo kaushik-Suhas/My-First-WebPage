@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded',function(){
     // add movie
     const addForm = forms['add-movie'];
     addForm.addEventListener('submit',function(e){
-        e.PreventDefault();
+    e.PreventDefault();
         
     // creating elements
     const value = addForm.querySelector('input[type = "text"]').value;
@@ -23,17 +23,18 @@ document.addEventListener('DOMContentLoaded',function(){
     const deleteBtn = document.createElement('span');
 
     // add text content
-
+    movieName.textContent = value;
+    deleteBtn.textContent = 'Delete';
 
     // add classes
-
+    movieName.classList.add('name');
+    deleteBtn.classList.add('Delete');
 
     // append to DOM
+    li.appendChild(movieName);
+    li.appendChild(deleteBtn);
+    list.appendChild(li);
 
-
-   
     });
-
-
 
 })
