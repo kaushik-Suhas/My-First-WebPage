@@ -106,6 +106,7 @@ h2 {
     margin: 20px 0;
     border-left: 0;
     color: white;
+    font-family:'Arial Narrow Bold' ;
 }
 
 #add-movie button:hover{
