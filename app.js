@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded'),function(){
+document.addEventListener('DOMContentLoaded',function(){
     
     const list =  document.querySelector('#movie-list ul');
     const forms = document.forms;
@@ -13,4 +13,4 @@ document.addEventListener('DOMContentLoaded'),function(){
 
    
 
-}
+})
