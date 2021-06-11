@@ -5,12 +5,12 @@ document.addEventListener('DOMContentLoaded'),function(){
 
     //delete movie
     list.addEventListener('click',(e)=>{
-        if(e.target.classname == 'delete'){
+        if(e.target.className == 'delete'){
             const li = e.target.parentElement;
             li.parentNode.removeChild(li);
         }
     });
 
-    // Add movie
+   
 
 }
