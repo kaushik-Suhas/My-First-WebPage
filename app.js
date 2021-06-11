@@ -23,17 +23,17 @@ document.addEventListener('DOMContentLoaded',function(){
     const deleteBtn = document.createElement('span');
 
     // add text content
-    movieName.textContent = value;
-    deleteBtn.textContent = 'Delete';
+        movieName.textContent = value;
+        deleteBtn.textContent = 'Delete';
 
     // add classes
-    movieName.classList.add('name');
-    deleteBtn.classList.add('Delete');
+        movieName.classList.add('name');
+        deleteBtn.classList.add('Delete');
 
     // append to DOM
-    li.appendChild(movieName);
-    li.appendChild(deleteBtn);
-    list.appendChild(li);
+        li.appendChild(movieName);
+        li.appendChild(deleteBtn);
+        list.appendChild(li);
 
     });
 
